@@ -1,0 +1,8 @@
+Login:
+
+create table librarian_details(id number(5),name varchar2(20), password varchar2(20));
+
+desc librarian_details
+
+insert into librarian_details values(1,'Radhika','qwerty123');
+insert into librarian_details values(2,'Harsha','qwerty123');

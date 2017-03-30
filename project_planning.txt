@@ -1,0 +1,33 @@
+Back end and Databases----
+Tables:
+
+1.Table to hold Librarian details.
+2.Table to hold User details.
+3.Table to hold book names, corresponding author names and years.
+4.Table to hold UserBookDetails like book issues, pending books.
+5.Table to hold Membership details like fees and dues.
+
+Services:
+
+/Login
+/LibrarianDetails
+/UserDetails
+/Books
+/UserBookDetails
+/MembershipDetails
+
+
+Front end---------
+
+Pages to display:
+
+1.Librarian Login page.
+2.UserDetails page.
+3.Books page.
+4.BookDetails(issue and pending) page.
+5.MembershipDetails(fee and due) page.
+
+Functionality-----------
+
+1.Login(FE,BE,Database)
+
