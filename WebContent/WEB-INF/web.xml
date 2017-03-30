@@ -4,15 +4,30 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
-  
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
     <servlet-class>com.summitworks.www.LoginServlet</servlet-class>
-   </servlet> 
-   
-   <servlet-mapping>
+  </servlet>
+  <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/Login</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>UserdetailsServlet</servlet-name>
+    <servlet-class>com.summitworks.www.UserdetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserdetailsServlet</servlet-name>
+    <url-pattern>/Userdetails</url-pattern>
+  </servlet-mapping>
   
+  <servlet>
+  <servlet-name>BooksServlet</servlet-name>
+    <servlet-class>com.summitworks.www.BooksServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>BooksServlet</servlet-name>
+    <url-pattern>/Books</url-pattern>
+  </servlet-mapping>
 </web-app>

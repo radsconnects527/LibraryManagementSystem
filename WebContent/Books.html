@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$.get("Books", function(data, status){
+		if(data){
+            var len = data.length;
+            var txt = "";
+            if(len > 0){
+                for(var i=0;i<len;i++){
+                        txt += "<tr><td>"+data[i].id+"</td><td>"+data[i].name+"</td><td>"+data[i].author_name+"</td><td>"+data[i].year+"</td></tr>";
+                   }
+                if(txt != ""){
+                    $("#table").append(txt).removeClass("hidden");
+                }
+            }
+        }
+    });
+});
+</script>
+</head>
+<body>
+	<center>
+		<h1>Books</h1>
+	</center>
+	<table id="table" class="hidden">
+    <tr>
+        <th>ID</th>
+        <th>BOOK_NAME</th>
+        <th>AUTHOR_NAME</th>
+        <th>YEAR</th>
+    </tr>
+</table>
+</body>
+</html>

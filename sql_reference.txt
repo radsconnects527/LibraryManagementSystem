@@ -1,8 +1,25 @@
-Login:
-
 create table librarian_details(id number(5),name varchar2(20), password varchar2(20));
 
 desc librarian_details
 
 insert into librarian_details values(1,'Radhika','qwerty123');
 insert into librarian_details values(2,'Harsha','qwerty123');
+
+select * from librarian_details where name='Radhika' and password='rad';
+
+select * from librarian_details where name='Radhika' and password='qwerty123';
+
+create table user_details(id number(5),name varchar2(50), phone_number varchar2(20), email varchar2(30));
+
+insert into user_details values(1,'Radhika','555-666-7777','rad@gmail.com');
+insert into user_details values(2,'Harsha','555-444-7777','har@gmail.com');
+insert into user_details values(3,'Kyle','555-666-8888','ky@gmail.com');
+insert into user_details values(4,'Stan','555-333-9999','st@gmail.com');
+insert into user_details values(5,'Eric','555-222-7777','erc@gmail.com');
+insert into user_details values(6,'Kenny','555-666-1111','ken@gmail.com');
+
+delete from user_details where id=1;
+
+select * from user_details order by id;
+
+select * from user_details;
