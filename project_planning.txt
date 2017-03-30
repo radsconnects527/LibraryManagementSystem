@@ -44,5 +44,7 @@ Functionality-----------
 
 1.Login(FE,BE,Database)=DONE;
 2.UserDetails(FE,BE,Database)=DONE;
-3.Books(FE,BE,Database)
+3.Books(FE,BE,Database)=DONE;
+4.UserBookDetails(FE,BE,Database)
+
 
