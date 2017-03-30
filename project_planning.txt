@@ -5,7 +5,20 @@ Tables:
 2.Table to hold User details.
 3.Table to hold book names, corresponding author names and years.
 4.Table to hold UserBookDetails like book issues, pending books.
+//id,user_id,book_id,issue_date
+
+//join the UserBookDetails(user_id) and userdetails(id);
+//-----Books table too---------
+
+//select allias.books_name,allias.user_name,------
+
 5.Table to hold Membership details like fees and dues.
+//id,user_id,fee_due
+
+//select allias.user_name----
+
+6.Updating by Librarian
+//update user book details, update membership details
 
 Services:
 
