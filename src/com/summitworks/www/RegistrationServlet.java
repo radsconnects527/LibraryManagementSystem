@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.summitworks.www.DAO.LibrarianDAO;
+
 /**
  * Servlet implementation class RegistrationServlet
  */
@@ -19,6 +21,18 @@ public class RegistrationServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		LibrarianDAO dao = new LibrarianDAO();
+		
+		String userName = request.getParameter("uname");
+		String userPassword = request.getParameter("pass");
+		//String userRepassword = request.getParameter("repass");
+		String userAddress = request.getParameter("addr");
+		String userPhone = request.getParameter("phno");
+		String userEmail = request.getParameter("email");
+		
+		dao.insert(userName, userPassword, userAddress, userPhone, userEmail);
+		
 	}
 
 }

@@ -53,7 +53,7 @@
 						</tr>
 						<tr>
 							<td><input align="left" type="checkbox" name="librarian" onclick='window.location.assign("Librarian.jsp")'value="librarian" id="librarian"><label for="librarian"> Librarian</label></td>
-							<td><input align="right" type="checkbox" name="user" value="user" id="user"><label for="user"> User</label></td>
+							<td><input align="right" type="checkbox" name="user" onclick='window.location.assign("Books.jsp")' value="user" id="user"><label for="user"> User</label></td>
 							<!--<td><input type="text" name="lname" /></td>-->
 						</tr>
 						<!--<tr>

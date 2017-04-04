@@ -34,16 +34,16 @@ Front end---------
 
 Pages to display:
 
-landing.jsp page
-Librarian Login page.
-Registration page.
-home page.
-addUser page.
-UserDetails page.
-Books page.
+landing.jsp page--Radhika
+Librarian Login page.-- Sandeep
+add user page.
+//home page.
+//addUser page.
+UserDetails page.--Radhika
+Books page.--
 maintainBookspage.
-BookDetails(issue and pending) page.
-MembershipDetails(fee and due) page.
+BookDetails(issue and pending) page.--Sai
+MembershipDetails(fee and due) page.--Sai
 
 Functionality----------- convert all pages to jsp pages.
 

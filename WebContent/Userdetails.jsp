@@ -29,6 +29,10 @@ $(document).ready(function(){
 	<center>
 		<h1>User Details</h1>
 	</center>
+	<tr>
+		<input type="button" name="adduser" value="Add User" onclick='window.location.assign("AddUser.jsp")'/>
+		<input type="button" name="deleteuser" value="Delete User" onclick='window.location.assign("AddUser.jsp")'/>
+	</tr>	
 	<table id="table" class="hidden">
     <tr>
         <th>ID</th>

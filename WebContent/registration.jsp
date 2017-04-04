@@ -18,36 +18,40 @@
 			<td colspan="2" align="center"><b>&nbsp;</td>
 		</tr>
 		<tr>
+		<tr>
 			<td>User Name</td>
-			<td><input type="text" name="uname" required autofocus/></td>
+			<td><input id="uname" type="text" name="uname" required autofocus/></td>
 		</tr>
 		<tr>
 			<td>Password</td>
-			<td><input type="password" name="pass"/></td>
+			<td><input id="pass" type="password" name="pass"/></td>
 		</tr>
 		<tr>
 			<td>Re-Password</td>
-			<td><input type="password" name="repass"/></td>
+			<td><input id="repass" type="password" name="repass"/></td>
 		</tr>
 		<tr>
 			<td>Address</td>
-			<td><input type="text" name="addr"/></td>
+			<td><input id="addr" type="text" name="addr"/></td>
 		</tr>
 		<tr>
 			<td>Phone Number</td>
-			<td><input type="text" name="phno"/></td>
+			<td><input id="phno" type="text" name="phno"/></td>
 		</tr>
 		<tr>
 			<td>Email ID</td>
-			<td><input type="text" name="email"/></td>
+			<td><input id="email" type="text" name="email"/></td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
-		<tr>
+		<td align="center">
+		<input type="submit" formaction="registration" formmethod="post" value="registration" />
+		</td>
+		<!--<tr>
 			<td colspan="2" align="center"><input type="submit" value="Register"/></td>
-		</tr>
+		</tr> -->
 		</table></form>
 	</td>
 </tr>

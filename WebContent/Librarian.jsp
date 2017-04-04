@@ -60,8 +60,8 @@
 						<tr>
 							<td colspan="2" align="center"><input type="submit"
 								value="Login" /></td>
-							<td colspan="2" align="left"><input type="button" onclick='window.location.assign("registration.jsp")'
-								value="Signup" /></td>
+							<!--<td colspan="2" align="left"><input type="button" onclick='window.location.assign("registration.jsp")'
+								value="Signup" /></td>-->
 						</tr>
 						<!--<tr>
 							<td colspan="2" align="center"><br><br><a href="Books.html">Users can click here to browse the books!</a></td>
