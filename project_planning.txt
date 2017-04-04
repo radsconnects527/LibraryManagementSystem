@@ -34,17 +34,24 @@ Front end---------
 
 Pages to display:
 
-1.Librarian Login page.
-2.UserDetails page.
-3.Books page.
-4.BookDetails(issue and pending) page.
-5.MembershipDetails(fee and due) page.
+landing.jsp page
+Librarian Login page.
+Registration page.
+home page.
+addUser page.
+UserDetails page.
+Books page.
+maintainBookspage.
+BookDetails(issue and pending) page.
+MembershipDetails(fee and due) page.
 
-Functionality-----------
+Functionality----------- convert all pages to jsp pages.
 
-1.Login(FE,BE,Database)=DONE;
-2.UserDetails(FE,BE,Database)=DONE;
-3.Books(FE,BE,Database)=DONE;
-4.UserBookDetails(FE,BE,Database)
+landing.jsp with 2 Check Boxes.(FE)=DONE;
+Login(FE,BE,Database)=DONE;
+Registration page(FE,BE,Database)
+UserDetails(FE,BE,Database)=DONE;
+Books(FE,BE,Database)=DONE;
+UserBookDetails(FE,BE,Database)
 
 

@@ -76,7 +76,7 @@ public class LoginServlet extends HttpServlet {
 			
 			if(rs.next())
 			{
-				response.sendRedirect("Userdetails.html");
+				response.sendRedirect("Userdetails.jsp");
 			}
 			else{
 				out.println("<html><body><center>");

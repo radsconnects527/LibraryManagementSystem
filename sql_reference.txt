@@ -8,6 +8,8 @@ insert into librarian_details values(3,'Sai Krishna','qwerty123');
 
 create table user_details(id number(5),name varchar2(50), phone_number varchar2(20), email varchar2(30));
 
+alter table librarian_details add(address varchar2(50), phone_number varchar2(15), email_id varchar2(30));
+
 insert into user_details values(1,'Radhika','555-666-7777','rad@gmail.com');
 insert into user_details values(2,'Harsha','555-444-7777','har@gmail.com');
 insert into user_details values(3,'Kyle','555-666-8888','ky@gmail.com');

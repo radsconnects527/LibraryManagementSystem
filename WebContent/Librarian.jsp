@@ -1,4 +1,7 @@
 <!--Home.html-->
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <body>
 	<center>
@@ -16,6 +19,26 @@
 			<td valign="top" align="center"><br />
 				<form action="Login" method="post">
 					<table>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
 						<tr>
 							<td colspan="2" align="center"><b>Login Page</b></td>
 						</tr>
@@ -37,10 +60,12 @@
 						<tr>
 							<td colspan="2" align="center"><input type="submit"
 								value="Login" /></td>
+							<td colspan="2" align="left"><input type="button" onclick='window.location.assign("registration.jsp")'
+								value="Signup" /></td>
 						</tr>
-						<tr>
+						<!--<tr>
 							<td colspan="2" align="center"><br><br><a href="Books.html">Users can click here to browse the books!</a></td>
-						</tr>
+						</tr>-->
 					</table>
 				</form></td>
 		</tr>
