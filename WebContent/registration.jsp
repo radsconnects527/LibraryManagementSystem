@@ -21,6 +21,7 @@
 		<tr>
 			<td>User Name</td>
 			<td><input id="uname" type="text" name="uname" required autofocus/></td>
+			<br>
 		</tr>
 		<tr>
 			<td>Password</td>
